@@ -11,3 +11,6 @@ The player has to react to the target LED flashing by quickly pressing the butto
 If, however, the player presses the button when they are not supposed to, i.e. when either the decoy LED is on or no LED is on, they get a strike, 5 of which lead to failure in the current configuration. A failure is indicated by the on-board LEDs turning semi-permanently red and victory is indicated similarly but with green. In order to start a new game, just press the reset button on the lower left corner of the XIAO board, denoted by “R”.
 
 A demo video can be found [here](https://digital-fabrication-portfolio-miro-keimioniemi-a2f2c11a6e705b8f.gitlab.io/p/embedded-programming/#micropython) by clicking the link and scrolling upwards a little bit until the 57s long video.
+
+The game can be found in the `src` folder. `other` contains code for testing the LEDs on the board. 
+
